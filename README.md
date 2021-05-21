@@ -1,6 +1,12 @@
 ### Demo
 URL: https://searchgithubuserinfo.netlify.app
 
+<p align="center">
+<a href="https://user-images.githubusercontent.com/42184833/119205822-fe686200-bab6-11eb-977d-c4c44d019e04.png" target="_blank">
+<img src="https://user-images.githubusercontent.com/42184833/119205822-fe686200-bab6-11eb-977d-c4c44d019e04.png" width="90%" /> 
+<a/>
+</p>
+
 ## **Features**  
 
 -   **Authentication**
