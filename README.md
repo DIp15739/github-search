@@ -1,68 +1,107 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Demo
+URL: https://searchgithubuserinfo.netlify.app
 
-## Available Scripts
+## **Features**  
 
-In the project directory, you can run:
+-   **Authentication**
 
-### `npm start`
+	1.  Sign up
+	2.  Login
+	3.  Forgot Password using email  
+    
+	4.  Logout
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   **user info**
 
-The page will reload if you make edits.<br />
+	1.  Search GitHub user using GitHub API
+	2.  Show user profile
+
+		- Avatar
+
+		- Name  
+
+		- Username / Github Id  
+
+		- Bio  
+
+		- Blog URL / Website  
+
+		- Location
+
+  
+	3. User Repo
+
+		- Total Repo, Gists and Followers Count
+
+		- Name (on click open github repo page)
+
+		- Description  
+
+		- language  
+
+		- Star count  
+
+		- Watch count
+
+		- Heart icon for add to favorite
+
+	4. add or remove repo in favorite
+
+  
+
+## **Technologies**
+1.  React 16.13.1
+2.  React Dom 16.13.1
+3.  React Router Dom 5.2.0
+4.  React Toasttify 7.0.4
+5.  Axios 0.21.1
+6.  React Bootstrap 1.6.0
+7.  Bootstrap 4.6.0
+
+## **How to Use**
+
+    git clone https://github.com/DIp15739/github-search.git
+    cd github-search
+    npm install
+
+ - ### **Firebase**
+	 - Create
+		 - Create Firebase Project
+		 - Start Authentication with Email
+		 - Start Cloud Firestore
+		 - Copy config from Project settings
+	
+	- Setup in project
+		- Create `.evn.local` file and add all data</br>
+***REACT_APP_FIREBASE_API_KEY*** = apiKey value </br>
+***REACT_APP_FIREBASE_AUTH_DOMAIN*** = authDomain value </br>
+***REACT_APP_FIREBASE_DATABASE_URL*** = databaseURL value</br>
+***REACT_APP_FIREBASE_PROJECT_ID*** = projectId value </br>
+***REACT_APP_FIREBASE_STORAGE_BUCKET*** = storageBucket value </br>
+***REACT_APP_FIREBASE_MESSAGING_SENDER_ID*** = measurementId value </br>
+***REACT_APP_FIREBASE_APP_ID*** = appId value </br>
+ 
+ - ### **In the project directory**
+
+	### `npm start`
+
+	Runs the app in the development mode.  
+Open  [http://localhost:3000](http://localhost:3000/)  to view it in the browser.
+
+	The page will reload if you make edits.  
 You will also see any lint errors in the console.
 
-### `npm test`
+	### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+	Launches the test runner in the interactive watch mode.  
+See the section about  [running tests](https://facebook.github.io/create-react-app/docs/running-tests)  for more information.
 
-### `npm run build`
+	### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+	Builds the app for production to the  `build`  folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+	The build is minified and the filenames include the hashes.  
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+	See the section about  [deployment](https://facebook.github.io/create-react-app/docs/deployment)  for more information.
