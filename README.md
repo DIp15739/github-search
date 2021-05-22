@@ -2,10 +2,10 @@
 URL: https://searchgithubuserinfo.netlify.app
 
 <p align="center">
-<a href="https://user-images.githubusercontent.com/42184833/119205822-fe686200-bab6-11eb-977d-c4c44d019e04.png" target="_blank">
-<img src="https://user-images.githubusercontent.com/42184833/119205822-fe686200-bab6-11eb-977d-c4c44d019e04.png" width="90%" /> 
+<a href="https://user-images.githubusercontent.com/42184833/119221268-259d4e80-bb0c-11eb-85a9-8670dcd09d8f.png" target="_blank">
+<img src="https://user-images.githubusercontent.com/42184833/119221268-259d4e80-bb0c-11eb-85a9-8670dcd09d8f.png" width="90%" /> 
 <a/>
-</p>
+</p
 
 ## **Features**  
 
