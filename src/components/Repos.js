@@ -20,11 +20,11 @@ const Repos = ({ user }) => {
 
   const toggleFav = (repo) => {
     var isFav = currentUser.fav.find((info) => info.id === repo.id);
-    console.log(isFav);
 
     if (!isFav) {
       currentUser.fav.push({
         id: repo.id,
+        html_url: repo.html_url,
         name: repo.name,
         description: repo.description,
         language: repo.language,

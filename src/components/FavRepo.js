@@ -13,7 +13,6 @@ const FavRepo = ({ repos_url }) => {
 
   const toggleFav = (repo) => {
     var isFav = currentUser.fav.find((info) => info.id === repo.id);
-    console.log(isFav);
 
     if (!isFav) {
       currentUser.fav.push({
