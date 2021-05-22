@@ -46,7 +46,11 @@ const Header = ({ setUser }) => {
   };
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="md" fixed="top">
+      <Navbar
+        variant="dark"
+        expand="md"
+        fixed="top"
+        style={{ backgroundColor: "rgb(44, 47, 49)" }}>
         <Form inline onSubmit={fetchDetails}>
           <FormControl
             type="text"
